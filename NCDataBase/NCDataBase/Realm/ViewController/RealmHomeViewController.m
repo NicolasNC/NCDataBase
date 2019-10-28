@@ -18,13 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"Realm 数据库简单实使用(见代码)";
     
+
     Person *p = [[Person alloc]init];
     p.name = @"nicolas";
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.dateFormat = @"yyyy-MM-dd";
-    NSDate *date =  [dateFormatter dateFromString:@"1992-02-21"];
+    NSDate *date =  [dateFormatter dateFromString:@"1993-02-21"];
     p.birthdate = date;
     p.id = 1;
     Dog *dog = [[Dog alloc]init];
