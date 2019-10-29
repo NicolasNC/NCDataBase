@@ -24,6 +24,9 @@
 		8F0F8C0B236147F9006E5870 /* HandleRealmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F8C0A236147F9006E5870 /* HandleRealmModel.m */; };
 		8F0F8C0E23618B3A006E5870 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F8C0D23618B3A006E5870 /* libc++.tbd */; };
 		8F0F8C1023618B44006E5870 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F8C0F23618B44006E5870 /* libz.tbd */; };
+		8F3047DA2367E6860002721B /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3047D92367E6860002721B /* CoreDataViewController.m */; };
+		8F3047E023680BAB0002721B /* Teacher+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3047DF23680BAB0002721B /* Teacher+CoreDataProperties.m */; };
+		8F3047E3236810F90002721B /* NCHandleCoreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3047E2236810F90002721B /* NCHandleCoreDataModel.m */; };
 		8F70A2742366C014005900DC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F70A2672366C013005900DC /* FMDatabaseQueue.m */; };
 		8F70A2752366C014005900DC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F70A26A2366C013005900DC /* FMDatabaseAdditions.m */; };
 		8F70A2762366C014005900DC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F70A26B2366C013005900DC /* FMDatabase.m */; };
@@ -60,6 +63,11 @@
 		8F70A3DB2366EA91005900DC /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F70A3BC2366EA91005900DC /* NSRelationshipDescription+MagicalDataImport.m */; };
 		8F70A3DC2366EA91005900DC /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F70A3BE2366EA91005900DC /* NSString+MagicalDataImport.m */; };
 		8F70A3DD2366EA91005900DC /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F70A3C12366EA91005900DC /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
+		8F9B89902367D1DD00D74675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9B898F2367D1DD00D74675 /* Foundation.framework */; };
+		8F9B899C2367D5E200D74675 /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B89962367D5E200D74675 /* Student+CoreDataClass.m */; };
+		8F9B899D2367D5E200D74675 /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B89972367D5E200D74675 /* Student+CoreDataProperties.m */; };
+		8F9B899E2367D5E200D74675 /* Teacher+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B899A2367D5E200D74675 /* Teacher+CoreDataClass.m */; };
+		8F9B89A22367D65700D74675 /* AppDelegate+Magicalrecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B89A12367D65700D74675 /* AppDelegate+Magicalrecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +131,11 @@
 		8F0F8C0A236147F9006E5870 /* HandleRealmModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandleRealmModel.m; sourceTree = "<group>"; };
 		8F0F8C0D23618B3A006E5870 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		8F0F8C0F23618B44006E5870 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8F3047D82367E6860002721B /* CoreDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		8F3047D92367E6860002721B /* CoreDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		8F3047DF23680BAB0002721B /* Teacher+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8F3047E1236810F90002721B /* NCHandleCoreDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCHandleCoreDataModel.h; sourceTree = "<group>"; };
+		8F3047E2236810F90002721B /* NCHandleCoreDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCHandleCoreDataModel.m; sourceTree = "<group>"; };
 		8F70A2662366C013005900DC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		8F70A2672366C013005900DC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		8F70A2682366C013005900DC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
@@ -200,6 +213,17 @@
 		8F70A3C02366EA91005900DC /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
 		8F70A3C12366EA91005900DC /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
 		8F70A3C22366EA91005900DC /* MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecord.h; sourceTree = "<group>"; };
+		8F9B898F2367D1DD00D74675 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F9B89922367D3A200D74675 /* School.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = School.xcdatamodel; sourceTree = "<group>"; };
+		8F9B89942367D5E200D74675 /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8F9B89952367D5E200D74675 /* Student+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		8F9B89962367D5E200D74675 /* Student+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		8F9B89972367D5E200D74675 /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8F9B89982367D5E200D74675 /* Teacher+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8F9B89992367D5E200D74675 /* Teacher+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataClass.h"; sourceTree = "<group>"; };
+		8F9B899A2367D5E200D74675 /* Teacher+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataClass.m"; sourceTree = "<group>"; };
+		8F9B89A02367D65700D74675 /* AppDelegate+Magicalrecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Magicalrecord.h"; sourceTree = "<group>"; };
+		8F9B89A12367D65700D74675 /* AppDelegate+Magicalrecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Magicalrecord.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +231,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9B89902367D1DD00D74675 /* Foundation.framework in Frameworks */,
 				8F0F8C1023618B44006E5870 /* libz.tbd in Frameworks */,
 				8F0F8C0E23618B3A006E5870 /* libc++.tbd in Frameworks */,
 				8F70A27B2366C1C2005900DC /* libsqlite3.0.tbd in Frameworks */,
@@ -262,6 +287,8 @@
 				8F0F8BEF23605057006E5870 /* SQLite3 */,
 				8F0F8BB723604FCD006E5870 /* AppDelegate.h */,
 				8F0F8BB823604FCD006E5870 /* AppDelegate.m */,
+				8F9B89A02367D65700D74675 /* AppDelegate+Magicalrecord.h */,
+				8F9B89A12367D65700D74675 /* AppDelegate+Magicalrecord.m */,
 				8F0F8BBD23604FCD006E5870 /* ViewController.h */,
 				8F0F8BBE23604FCD006E5870 /* ViewController.m */,
 				8F0F8BC023604FCD006E5870 /* Main.storyboard */,
@@ -316,6 +343,7 @@
 		8F0F8BEE23605057006E5870 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
+				8F9B89912367D3A200D74675 /* School.xcdatamodeld */,
 				8F70A2882366E7E9005900DC /* Libs */,
 				8F70A2872366E7E9005900DC /* Model */,
 				8F70A2852366E7E8005900DC /* View */,
@@ -370,6 +398,7 @@
 		8F0F8BF423614300006E5870 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F9B898F2367D1DD00D74675 /* Foundation.framework */,
 				8F70A27A2366C07F005900DC /* libsqlite3.0.tbd */,
 				8F0F8C0F23618B44006E5870 /* libz.tbd */,
 				8F0F8C0D23618B3A006E5870 /* libc++.tbd */,
@@ -450,6 +479,8 @@
 		8F70A2862366E7E8005900DC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8F3047D82367E6860002721B /* CoreDataViewController.h */,
+				8F3047D92367E6860002721B /* CoreDataViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -457,6 +488,16 @@
 		8F70A2872366E7E9005900DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8F9B89942367D5E200D74675 /* Student+CoreDataProperties.h */,
+				8F9B89952367D5E200D74675 /* Student+CoreDataClass.h */,
+				8F9B89962367D5E200D74675 /* Student+CoreDataClass.m */,
+				8F9B89972367D5E200D74675 /* Student+CoreDataProperties.m */,
+				8F9B89982367D5E200D74675 /* Teacher+CoreDataProperties.h */,
+				8F9B89992367D5E200D74675 /* Teacher+CoreDataClass.h */,
+				8F3047DF23680BAB0002721B /* Teacher+CoreDataProperties.m */,
+				8F9B899A2367D5E200D74675 /* Teacher+CoreDataClass.m */,
+				8F3047E1236810F90002721B /* NCHandleCoreDataModel.h */,
+				8F3047E2236810F90002721B /* NCHandleCoreDataModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -710,16 +751,20 @@
 				8F70A3D52366EA91005900DC /* NSManagedObjectContext+MagicalThreading.m in Sources */,
 				8F70A3CD2366EA91005900DC /* NSManagedObject+MagicalRecord.m in Sources */,
 				8F70A3CE2366EA91005900DC /* NSManagedObject+MagicalAggregation.m in Sources */,
+				8F3047E023680BAB0002721B /* Teacher+CoreDataProperties.m in Sources */,
 				8F70A3CF2366EA91005900DC /* NSManagedObject+MagicalDataImport.m in Sources */,
 				8F70A3DC2366EA91005900DC /* NSString+MagicalDataImport.m in Sources */,
 				8F70A3C52366EA91005900DC /* MagicalRecord+Setup.m in Sources */,
 				8F0F8C012361461F006E5870 /* Person.m in Sources */,
+				8F3047E3236810F90002721B /* NCHandleCoreDataModel.m in Sources */,
 				8F70A3C42366EA91005900DC /* MagicalRecord+iCloud.m in Sources */,
 				8F70A3D92366EA91005900DC /* MagicalImportFunctions.m in Sources */,
 				8F70A2772366C014005900DC /* FMDatabasePool.m in Sources */,
 				8F70A3CC2366EA91005900DC /* NSManagedObject+MagicalFinders.m in Sources */,
 				8F70A3C82366EA91005900DC /* MagicalRecord+Options.m in Sources */,
+				8F3047DA2367E6860002721B /* CoreDataViewController.m in Sources */,
 				8F0F8BBF23604FCD006E5870 /* ViewController.m in Sources */,
+				8F9B89A22367D65700D74675 /* AppDelegate+Magicalrecord.m in Sources */,
 				8F70A3D62366EA91005900DC /* NSNumber+MagicalDataImport.m in Sources */,
 				8F0F8C0B236147F9006E5870 /* HandleRealmModel.m in Sources */,
 				8F0F8BB923604FCD006E5870 /* AppDelegate.m in Sources */,
@@ -741,6 +786,7 @@
 				8F0F8C08236147CA006E5870 /* NCModel.m in Sources */,
 				8F0F8BFE2361456C006E5870 /* RealmHomeViewController.m in Sources */,
 				8F70A3CA2366EA91005900DC /* NSPersistentStore+MagicalRecord.m in Sources */,
+				8F9B899D2367D5E200D74675 /* Student+CoreDataProperties.m in Sources */,
 				8F70A2742366C014005900DC /* FMDatabaseQueue.m in Sources */,
 				8F70A3DD2366EA91005900DC /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
 				8F70A3D72366EA91005900DC /* NSAttributeDescription+MagicalDataImport.m in Sources */,
@@ -748,6 +794,8 @@
 				8F70A2812366C2C4005900DC /* People.m in Sources */,
 				8F70A27E2366C260005900DC /* HandleFMDBModel.m in Sources */,
 				8F70A2752366C014005900DC /* FMDatabaseAdditions.m in Sources */,
+				8F9B899E2367D5E200D74675 /* Teacher+CoreDataClass.m in Sources */,
+				8F9B899C2367D5E200D74675 /* Student+CoreDataClass.m in Sources */,
 				8F70A3C62366EA91005900DC /* MagicalRecord+Actions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1073,6 +1121,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F9B89912367D3A200D74675 /* School.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F9B89922367D3A200D74675 /* School.xcdatamodel */,
+			);
+			currentVersion = 8F9B89922367D3A200D74675 /* School.xcdatamodel */;
+			path = School.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8F0F8BAC23604FCD006E5870 /* Project object */;
 }

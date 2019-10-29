@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "RealmHomeViewController.h"
 #import "FMDBViewController.h"
+#import "CoreDataViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)NSArray *dataArr;
@@ -59,6 +60,13 @@
                 [self.navigationController pushViewController:fbvc animated:true];
             }
                 break;
+        case 2:
+        {
+            CoreDataViewController *cdvc = [[CoreDataViewController alloc]init];
+            [self.navigationController pushViewController:cdvc animated:true];
+        }
+            break;
+            
         default:
             break;
     }
